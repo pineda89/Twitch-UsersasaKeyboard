@@ -11,8 +11,6 @@ keysbinding:
     event: PRESSKEY#VK_A
   - word: B
     event: PRESSKEY#VK_B
-  - word: ABDULBAKAR
-    event: WRITETEXT#aAbB 3123Ajjl
 
     # Is posible to use:
     # Basic key -> PRESSKEY#{KEY}
