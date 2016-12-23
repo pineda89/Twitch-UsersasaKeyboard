@@ -1,0 +1,22 @@
+server: irc.chat.twitch.tv
+port: 443
+user: humiltat
+password: oauth:vXXXXXXXXXXXXXXXXXXXX7
+channel: humiltat
+eventfrequencyinms: 500
+usetls: true
+debug: true
+keysbinding:
+  - word: A
+    event: PRESSKEY#VK_A
+  - word: B
+    event: PRESSKEY#VK_B
+  - word: ABDULBAKAR
+    event: WRITETEXT#aAbB 3123Ajjl
+
+    # Is posible to use:
+    # Basic key -> PRESSKEY#{KEY}
+    # Key + shift -> PRESSKEY#SHIFT#{KEY}
+    # Key + ctrl -> PRESSKEY#CTRL#{KEY}
+    # Key + alt -> PRESSKEY#ALT#{KEY}
+    # Also can combine like -> PRESSKEY#SHIFT#CTRL#{KEY}
